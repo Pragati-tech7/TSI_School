@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditorium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Great+Vibes&family=Kaushan+Script&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/auditorium.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg header-nav fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TSI School</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index" id="home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/studentcouncil">Student Council</a>
+                        </li>
+
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Academics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/admission">Admissions</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/cultural">Cultural</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sports">Sports</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Infrastructure
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/classroom">Classrooms</a></li>
+                                <li><a class="dropdown-item" href="/laboratories">Laboratories</a></li>
+                                <li><a class="dropdown-item" href="/basketball">Basketball Court</a></li>
+                                <li><a class="dropdown-item" href="/auditorium">Auditorium</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/mandatoryd">Mandatory Disclosure</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact Us</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+
+
+    <div class="banner">
+        <h1>
+
+
+            <img id="lab" src="images/lab.jpg" alt="Laboratories">
+            <img id="classroom" src="images/classroom.jpg" alt="Laboratories">
+            <img id="basket" src="images/basketball.jpg" alt="Laboratories">
+            <div class="centered">
+                {{!-- <h1 class="ad">
+
+                    INFRASTRUCTURE
+                </h1> --}}
+
+            </div>
+    </div>
+    <div class="para">
+        <h3 id="mw">
+            AUDITORIUM
+        </h3>
+    </div>
+
+    <div class="line">
+        <hr size="3">
+
+    </div>
+    <div class="paragraph">
+        <p>Where creativity meets excellence. And excellence meets ecstasy.</p>
+
+        <p> In keeping with global educational trends, TSI group of Schools has ergonomically designed buildings where
+            students can bring out the best in them. With well-ventilated and cheerfully colored classrooms, the school
+            also has playgrounds and attached indoor sporting facility. With its own auditorium, swimming pool,
+            basketball court, tennis court, library etc., the young learners will be able to face the competitive world
+            with courage and fortitude, attuning them to the magic of our great, big, beautiful world.</p>
+
+    </div>
+
+    <div class="image">
+        <img id="tsi" src="images/auditorium.jpg" alt="TSI group of Schools">
+        <div class="textblock">
+
+            <p>The school boasts of a massive auditorium that can house the entire school which is used for conducting
+                and celebrating all the major events like Modfest and other cultural and recreational events that take
+                place in the school.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+{{>footer}}
+
+</html>

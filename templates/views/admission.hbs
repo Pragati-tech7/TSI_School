@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>TSI School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    
+</head>
+
+<body>
+    <section>
+    {{>navbar}}
+    {{>admission1}}
+    </section>
+    
+    
+        
+    
+  
+    
+   
+<section class="enquiry">
+    <h1>EQUIRY FORM</h1>
+
+
+
+    <div id="overlay">
+        <form action="/admission" method="POST">
+            <label for="name">Student Name</label>
+            <input type="text" id="name" placeholder="Your Name.." name="name">
+            <small class="error"></small>
+
+            <label for="father's name">Father's/Guardian's Name</label>
+            <input type="text" id="g_name" placeholder="Guardian's Name.." name="guardian_name">
+            <small class="error"></small>
+
+            <label for="dob">Date of Birth</label>
+            <input type="text" id="dob" placeholder="Date of Birth.. " name="dob">
+            <small class="error"></small>
+
+            <div align="justify" class="form-input-kk" style="padding-bottom:20px">
+                <label>Seeking Admission in Class </label>
+                <select name="admission_class" id="admission_class">
+                    <option value="">Admission in Class</option>
+                    <option value="Pre-Nursery">Pre-Nursery</option>
+                    <option value="Nursery">Nursery</option>
+                    <option value="LKG">LKG</option>
+                    <option value="HKG">HKG</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                    <option value="V">V</option>
+                    <option value="VI">VI</option>
+                    <option value="VII">VII</option>
+                    <option value="VIII">VIII</option>
+                    <option value="IX">IX</option>
+                    <option value="X">X</option>
+                    <option value="XI">XI</option>
+                    <option value="XII">XII</option>
+                </select>
+            </div>
+
+            <div align="justify" class="form-input-kk" style="padding-bottom:20px">
+                <label style>Last Class attended </label>
+                <select name="last_class" id="last_class">
+                    <option value="">Last Class</option>
+                    <option value="Pre-Nursery">Pre-Nursery</option>
+                    <option value="Nursery">Nursery</option>
+                    <option value="LKG">LKG</option>
+                    <option value="HKG">HKG</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                    <option value="V">V</option>
+                    <option value="VI">VI</option>
+                    <option value="VII">VII</option>
+                    <option value="VIII">VIII</option>
+                    <option value="IX">IX</option>
+                    <option value="X">X</option>
+                    <option value="XI">XI</option>
+                    <option value="XII">XII</option>
+                </select>
+            </div>
+
+            <label for="prev school name">Previous School Name</label>
+            <input type="text" id="previous_school" placeholder="Presently Studying in.." name="prev_school_name">
+            <small class="error"></small>
+
+            <label for="email">Email Address</label>
+            <input type="text" id="e_mail" placeholder="Email Address .." name="email">
+            <small class="error"></small>
+
+            <label for="name">Contact No...</label>
+            <input type="text" id="mob_no" placeholder="Contact No.." name="number">
+            <small class="error"></small>
+
+            <label for="name">Message</label>
+            <textarea id="address" placeholder="Ask your Queries here.." rows="6" name="message"></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="Submit">
+                <p id="success"></p>
+
+            </div>
+
+
+
+
+        </form>
+
+
+    </div>
+    </section>
+    <script src="app.js"></script>
+
+</body>
+{{>footer}}
+
+</html>

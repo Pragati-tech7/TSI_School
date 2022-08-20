@@ -1,0 +1,105 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    /* background-color: #F0EBE3; */
+    color: #666;
+
+}
+
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: #F0EBE3;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* position: fixed; */
+
+
+}
+
+.enquiry{
+    background-color: #F0EBE3;
+    margin-top: 20px;
+    padding-top: 20px;
+
+
+}
+
+form {
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    /* margin: 17vh auto 0 auto; */
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+
+}
+
+.form-input-kk input,
+.form-input-kk select,
+.form-input-kk textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+
+    resize: vertical;
+
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #263c4e;
+    color: #f6ad3e;
+    padding: 10px 0;
+    border: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 85px;
+    margin-top: 20px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9f01;
+    color: #263c4e
+}

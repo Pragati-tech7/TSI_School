@@ -1,0 +1,95 @@
+s.banner {
+    display: inline;
+
+
+}
+
+#student {
+    width: 32%;
+    height: 340px;
+    margin-top: 64px;
+    opacity: 0.9;
+    margin-left: 0;
+}
+
+#classroom {
+    width: 33%;
+    height: 340px;
+    margin-top: 64px;
+    opacity: 0.9;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+#school {
+    width: 33%;
+    height: 340px;
+    margin-top: 64px;
+    opacity: 0.9;
+    max-width: 100%;
+    
+    
+}
+
+.centered h1{
+
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: rgb(236, 240, 229);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.kk_bg31 {
+    background-color: #fff;
+    padding: 15px
+}
+
+
+.kk_evnt {
+    font-family: Futurist-Fixed-width;
+    font-size: 38px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.section-evnt:before {
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: #f6ad3e;
+    position: absolute;
+    bottom: -1px;
+    left: 47%
+}
+
+.kk_evnt_p {
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 4px;
+    color: #fff
+}
+
+.section-evnt {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Futurist-Fixed-width;
+    color: rgb(92, 82, 82);
+}
